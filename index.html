@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      padding: 40px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .todo-list {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    label {
+      font-size: 16px;
+    }
+
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My To-Do List</h1>
+
+  <div class="todo-list">
+    <div class="todo-item">
+      <input type="checkbox" id="task1" />
+      <label for="task1">Finish HTML project</label>
+    </div>
+    <div class="todo-item">
+      <input type="checkbox" id="task2"  />
+      <label for="task2" >Read a chapter of a book</label>
+    </div>
+    <div class="todo-item">
+      <input type="checkbox" id="task3" />
+      <label for="task3">Go for a walk</label>
+    </div>
+    <div class="todo-item">
+      <input type="checkbox" id="task4" />
+      <label for="task4">Call a friend</label>
+    </div>
+<div class="todo-item">
+      <input type="checkbox" id="task4" />
+      <label for="task4">Meditate for 10mins</label>
+    </div>
+
+  </div>
+
+</body>
+</html>
